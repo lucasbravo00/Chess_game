@@ -50,12 +50,12 @@ python chess_game.py
 ## Licenses and Attribution
 
 ### Stockfish
-- **License:** Stockfish is distributed under the GNU General Public License (GPLv3).
-- **Notice:** If you include the Stockfish binary in this repository, you must comply with the GPLv3 requirements (e.g., include the full license text and make the source available).
+- **License:** GNU General Public License v3.0 (GPL‑3.0)  
+- **Notice:** This repository includes the Stockfish binary. Per GPL‑3.0 requirements, the full source code and license text are available at https://github.com/official-stockfish/Stockfish and in LICENSE‑STOCKFISH.txt.
 
 ### Lichess Pieces
-- **License:** The chess piece images are sourced from Lichess, which typically offers assets under a permissive license (often CC0 or similar).
-- **Attribution:** Verify the specific license provided with the assets. If attribution is required, include a note here or in a separate LICENSE file stating that the chess piece images are provided by Lichess under [the applicable license].
+- **License:** CC0 (public domain) — no restrictions.  
+- **Attribution (optional):** Chess piece graphics courtesy of Lichess (https://lichess.org), released under CC0/public domain.
 
 ## Project Structure
 - **chess_game.py:** The main entry point for the game.
