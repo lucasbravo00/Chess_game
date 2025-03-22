@@ -1,3 +1,8 @@
-# Treat the Stockfish binary as vendored/generated so it doesn’t count toward language stats
-stockfish/* linguist-vendored
+# Ignore everything under stockfish/ from language statistics
+stockfish/** linguist-vendored
+
+# Ignore executable files
 *.exe linguist-vendored
+
+# Force all Python source files to count as Python
+*.py linguist-language=Python
