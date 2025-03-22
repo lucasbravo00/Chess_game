@@ -1,0 +1,3 @@
+# Treat the Stockfish binary as vendored/generated so it doesn’t count toward language stats
+stockfish/* linguist-vendored
+*.exe linguist-vendored
