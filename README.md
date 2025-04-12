@@ -34,9 +34,19 @@ This repository contains the complete source code for a Chess game developed in 
    ```
 
 4. **Configure Stockfish:**
-   Stockfish is used as the chess engine. You can either:
-   - Use the version included in this repository
-   - Download the latest Stockfish binary from [Stockfish Downloads](https://stockfishchess.org/download/)
+
+Stockfish is used as the chess engine. Due to GitHub's file size limitations, the executable is **not included** in this repository. You must download it manually and replace the placeholder file.
+
+#### ➤ Steps to set up Stockfish:
+
+ **Download the Stockfish binary** for your operating system from the official site:  
+    [https://stockfishchess.org/download/](https://stockfishchess.org/download/)
+
+ **Replace the existing file** in the `stockfish/` directory with the binary you downloaded.  
+   Make sure the new file has the same name as expected in the code, or update the path in `chess_stockfish.py` accordingly.
+
+---
+
    
    **Important:** The Stockfish engine folder must be placed in the same directory as the game code. The application expects to find the engine in this location for proper functionality.
    
