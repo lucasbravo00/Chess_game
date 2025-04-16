@@ -17,8 +17,8 @@ This repository contains the complete source code for a Chess game developed in 
 ### Steps
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/chess-game.git
-   cd chess-game
+   git clone https://github.com/lucasbravo00/Chess_game.git
+   cd Chess_game
    ```
 
 2. **Create a virtual environment (optional but recommended):**
