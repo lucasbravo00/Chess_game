@@ -56,7 +56,7 @@ Stockfish is used as the chess engine. Due to GitHub's file size limitations, th
 Once all dependencies are installed and Stockfish is configured, run the game with:
 
 ```bash
-python chess_game.py
+python main.py
 ```
 
 ## Licenses and Attribution
